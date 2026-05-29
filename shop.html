@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home - Tricore Power Systems</title>
+    <title>Shop</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -90,223 +90,229 @@
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link">About</a>
             <a href="services.html" class="nav-item nav-link">Services</a>
-            <a href="projects.html" class="nav-item nav-link active">Projects</a>
-            <a href="shop.html" class="nav-item nav-link">Shop</a> 
+            <a href="projects.html" class="nav-item nav-link">Projects</a>
+            <a href="shop.html" class="nav-item nav-link active">Shop</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
     </div>
 </nav>
 <!-- Navbar End -->
 
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Projects</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Shop</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Projects</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Shop</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
+    
+    
+    
+    
 
-<!-- Projects Start -->
-<div class="container-xxl py-5">
+<!-- Shop Start -->
+<!-- Remove ALL Hover Effects ONLY on Shop Section -->
+<style>
+    /* Disable hover zoom completely */
+    .shop-section .portfolio-img img {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+    }
+
+    .shop-section .portfolio-img:hover img {
+        transform: none !important;
+        scale: 1 !important;
+    }
+
+    /* Remove overlay hover effects */
+    .shop-section .portfolio-img::before,
+    .shop-section .portfolio-img::after {
+        display: none !important;
+    }
+
+    /* Remove hover movement from cards */
+    .shop-section .portfolio-item,
+    .shop-section .portfolio-item:hover {
+        transform: none !important;
+        transition: none !important;
+        animation: none !important;
+    }
+
+    /* Remove any hover effects on image container */
+    .shop-section .portfolio-img,
+    .shop-section .portfolio-img:hover {
+        transform: none !important;
+        transition: none !important;
+    }
+</style>
+
+<div class="container-xxl py-5 shop-section">
     <div class="container">
 
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-            <h6 class="text-primary">Projects</h6>
-            <h1 class="mb-4">View Our Latest Works</h1>
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+            <h6 class="text-primary">Shop</h6>
+
+            <h1 class="mb-4">
+                Checkout Our Products
+            </h1>
+
             <p class="mb-4">
-    Explore some of our completed projects showcasing advanced electrical installations,
-    power distribution systems, backup power solutions, automation technologies, and
-                energy-efficient infrastructure delivered</p>
+                Explore our range of high-quality products
+                designed to improve efficiency, reliability, and performance across
+                industrial and commercial applications.
+            </p>
         </div>
 
-        <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row g-4 portfolio-container">
 
-            <!-- Project 1 -->
-            <div class="col-lg-4 col-md-6 portfolio-item first">
+            <!-- Product 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/1.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/1.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/ABB-VARIABLE-SPEED-DRIVES.jpg"
+                        alt="ABB Variable Speed Drives"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB VARIABLE SPEED DRIVES</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="col-lg-4 col-md-6 portfolio-item second">
+            <!-- Product 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/2.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/2.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/abb-motors-500x500.jpg"
+                        alt="ABB Motors"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB MOTORS</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 3 -->
-            <div class="col-lg-4 col-md-6 portfolio-item third">
+            <!-- Product 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/3.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/3.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/abb-power-controller-500x500.jpg"
+                        alt="ABB Power Quality"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB POWER QUALITY</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 4 -->
-            <div class="col-lg-4 col-md-6 portfolio-item first">
+            <!-- Product 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/4.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/4.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/ABB-DCS-SUPPLIES-500x500.jpg"
+                        alt="ABB DCS Supplies"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB DCS SUPPLIES</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 5 -->
-            <div class="col-lg-4 col-md-6 portfolio-item second">
+            <!-- Product 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/5.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/5.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/ABB-MEASUREMENT-AND-ANALYTICS-500x500.jpg"
+                        alt="ABB Measurement and Analytics"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB MEASUREMENT AND ANALYTICS</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 6 -->
-            <div class="col-lg-4 col-md-6 portfolio-item third">
+            <!-- Product 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/6.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/6.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/ABB-TRANSFORMERS-500x500.jpg"
+                        alt="ABB Transformers"
+                        style="height: 320px; object-fit: cover;">
+                </div>
+
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB TRANSFORMERS</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
-            <!-- Project 7 -->
-            <div class="col-lg-4 col-md-6 portfolio-item first">
+            <!-- Product 7 -->
+            <div class="col-lg-4 col-md-6 portfolio-item">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/7.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/7.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                    <img class="img-fluid w-100"
+                        src="img/shop/abb-spares-500x500.jpg"
+                        alt="ABB Spares"
+                        style="height: 320px; object-fit: cover;">
                 </div>
-            </div>
 
-            <!-- Project 8 -->
-            <div class="col-lg-4 col-md-6 portfolio-item second">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/8.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/8.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 9 -->
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/9.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/9.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 10 -->
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/10.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/10.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 11 -->
-            <div class="col-lg-4 col-md-6 portfolio-item second">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/11.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/11.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Project 12 -->
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="img/projects/12.jpg" alt="">
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1"
-                            href="img/projects/12.jpg"
-                            data-lightbox="portfolio">
-                            <i class="fa fa-eye"></i>
-                        </a>
-                    </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">ABB SPARES</p>
+                    <hr class="text-primary w-25 my-2">
                 </div>
             </div>
 
         </div>
     </div>
 </div>
-<!-- Projects End -->
+<!-- Shop End -->
+    
+    
+    
+    
 
 
- 
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <h6 class="text-primary">Free Quote</h6>
+                        <h1 class="mb-4">Get A Free Quote</h1>
+                        <p class="mb-4 pb-2">Whether you need advanced power solutions, electrical infrastructure support, backup systems, or energy-efficient technologies, TriCore Power Systems is ready to assist with reliable and professional service tailored to your operational needs.</p>
+                     <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
 
- 
-        
 
+  
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
